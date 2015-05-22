@@ -1,0 +1,99 @@
+/* Body */
+body {
+	background-color: #666666;
+}
+
+h1 {
+	color: white;
+	font-size:22px;
+	font-style:italic;
+
+}
+
+/* Container for entire page width */
+.container {
+	width: 1200px;
+}
+
+/* General row styling */
+.row{
+    overflow: hidden; 
+	border:0px;
+	background-color:black;
+}
+
+/* Vertical centering of header bar with logos */
+.vcenterHead {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+	background-image: url("chalkboard-black1.jpg");
+	background-position: center;
+}
+
+/* Styling for menu bar */
+.menuBar {
+	background-color:black;
+	color: yellow;
+	overflow:hidden;
+	text-align:center;
+	border-top: 3px double white;
+	border-bottom: 3px double white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+
+/* Menu bar buttons */
+.menuBtn {
+	background-color: #DC0;
+	font-weight: bold;
+	width:200px;
+}
+
+.menuBtn:hover{
+	background-color: #DC0;
+	font-weight: bold;
+	width:200px;
+	text-decoration: underline;
+}
+
+
+/* Content Pane */
+.contentPane{
+	padding: 5px;
+	border-top: 1px solid black;
+	font-family: "Geneva", "Tahoma", "Verdana", "Helvetica",;
+	color: #699;
+
+}
+
+#content {
+
+}
+
+a.content {
+	font-weight: bold;
+	border-bottom: 2px white solid;
+	color:white;
+	font-size: 15px;
+	text-decoration:none;
+	font-style:none;
+}
+
+a.content:link {
+	color: white;
+	
+}
+a.content:hover {
+	color: #699;
+	border-bottom: 2px #699 solid;
+}
+a.content:visited {
+}
+a.content:active {
+	color: #DC0;
+	border-bottom: 2px #DC0 solid;
+}
+
+
